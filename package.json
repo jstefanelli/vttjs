@@ -196,5 +196,8 @@
   "scripts": {
     "test": "grunt"
   },
+  "exports": {
+    "import": { "default":  "./lib/index.js" }
+  },
   "version": "0.12.1"
 }
